@@ -1,0 +1,13 @@
+#ifndef _thermalFVM_CONFIG_H
+#define _thermalFVM_CONFIG_H
+
+//Project: thermalFVM
+//Major Version: @thermalFVM_VERSION_MAJOR@
+//Minor Version: @thermalFVM_VERSION_MINOR@
+
+#define VERSION "@thermalFVM_VERSION_MAJOR@.@thermalFVM_VERSION_MINOR@"
+#define _WIN32
+
+#cmakedefine MYDEBUG
+
+#endif /*_thermalFVM_CONFIG_H*/
