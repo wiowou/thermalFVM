@@ -23,7 +23,7 @@ public:
   {
     int i = 0;
     
-    std::string testDir = "/home/bk/prog/eng/modelv3/UnitTests";
+    std::string testDir = "/home/bk/prog/eng/thermalFVM/UnitTests";
     GmshIO gmshIO;
     gmshIO.ReadFVM(testDir + "/inputs/sensor.msh");
     
